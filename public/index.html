@@ -1,306 +1,340 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Negro is Mine</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <meta name="description"
+          content="Knight is a beautiful Bootstrap 4 template for product landing pages."/>
 
-    <link rel="stylesheet" href="style.css">
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/default.css" id="theme-color">
 </head>
+<body>
 
-<body class="bg-black muli">
-    <header class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
-        <div class="flex justify-between">
-            <a href="#" class="flex items-center p-2 mr-4 no-underline">
-                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+<!--navigation-->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black" href="#">
+                Ｎｅｇｒｏ乙も
             </a>
-            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
-                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
-                <i data-feather="menu"></i>
-            </a>
-        </div>
-        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
-            <a href="#home" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Home</a>
-            <a href="#features" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
-            <a href="#ba" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">BA Negro</a>
-            <a href="#pricing" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Pricing</a>
-            <a href="#staff" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Staff</a>
-            <a href="#updates" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Updates</a>
-        </div>
-    </header>
-
-    <!-- hero section -->
-    <section id="home" class="min-h-100vh flex justify-start items-center">
-        <div class="mx-5 md-mx-l5">
-            <div>
-                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Monitoring <br />Watsapp Bot</h1>
-
-                <div class="br-8 mt-10 inline-flex">
-                    <a href="https://wa.me/6285174427437"><button
-                        class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Get
-                        Started</button></a>
-                </div>
-                <div class="white opacity-20 fs-s3 mt-3">Free 24/7 Whatsapp Bot Monitoring</span>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#update">Update</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="#">
+                            <em data-feather="message-circle" width="18" height="18" class="mr-2"></em>
+                            Try Negro
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
-
-    <!-- features -->
-    <section id="features" class="p-10 md-p-l5">
-        <div class="flex flex-column md-flex-row mx-auto">
-            <div class="w-100pc md-w-40pc">
-                <div class="br-8 p-5 m-5">
-                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
-                            data-feather="command" class="w-l5"></i></div>
-                    <h4 class="white fw-600 fs-m3 mb-5">Features</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">Memiliki 250+ fitur yang cocok untuk hiburan maupun mengatur komunitas mu.</div>
-                </div>
-            </div>
-            <div class="w-100pc md-w-40pc">
-                <div class="br-8 p-5 m-5">
-                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
-                            data-feather="clock" class="w-l5"></i></div>
-                    <h4 class="white fw-600 fs-m3 mb-5">Realtime</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Bot dapat berinteraksi dengan pengguna secara realtime, Online 24 Jam.</div>
-                </div>
-            </div>
-            <div class="w-100pc md-w-40pc">
-                <div class="br-8 p-5 m-5">
-                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
-                            data-feather="calendar" class="w-l5"></i></div>
-                    <h4 class="white fw-600 fs-m3 mb-5">Up To Date</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Bot akan di kembangkan rutin oleh developer sehingga fiturnya akan selalu up to date.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- brend ambasador -->
-    <section id="ba">
-          <div class="nft">
-            <div class='main'>
-              <img class='tokenImage' src="assets/images/dika.png" alt="BA" />
-              <h2>Andikha</h2>
-              <p class='description'>Infokan event wibu teramai dan terbugil sepanjang sejarah.</p>
-              <div class='tokenInfo'>
-                <div class="price">
-                  <ins></ins>
-                  <p>BA Negro</p>
-                </div>
-                <div class="duration">
-                  <ins></ins>
-                  <p>Lari ada wibu</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>
-
-    <!-- product options -->
-    <section class="py-l10">
-        <div class="flex flex-column md-flex-row md-w-80pc mx-auto">
-            <div class="w-100pc md-w-50pc">
-                <div class="br-8 p-5 m-5 bg-indigo-lightest-10 pointer hover-scale-up-1 ease-300">
-                    <div class="inline-block bg-indigo indigo-lightest br-3 px-4 py-1 mb-10 fs-s4 uppercase">
-                        rpl member</div>
-                    <div class="indigo-lightest fw-600 fs-m1">Yoga <span class="opacity-30"> has made significant contributions in building and developing this website with his experience and skills in website design and development.</span> </div>
-                    <a href="https://youga.my.id" class="mt-10 button bg-black fs-s3 white no-underline">About Yoga</a>
-                </div>
-            </div>
-            <div class="w-100pc md-w-50pc">
-                <div class="br-8 p-5 m-5 bg-indigo-lightest-10  pointer hover-scale-up-1 ease-300">
-                    <div class="inline-block bg-indigo indigo-lightest br-3 px-4 py-1 mb-10 fs-s4 uppercase">
-                        92 team developed</div>
-                    <div class="indigo-lightest fw-600 fs-m1"><span class="opacity-30">Negro community has been developed and managed by the </span> Pemuda PantatCina <span class="opacity-30"> aka </span>P.T.C<span class="opacity-30"> team for about 2 years.</span> </div>
-                    <a href="https://pantatcina.biz.id" class="mt-10 button bg-black fs-s3 white no-underline">About P.T.C</a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- pricing -->
-    <section id="pricing">
-        <div class="p-10 flex flex-wrap">
-            <div class="w-100pc md-w-50pc">
-                <div class="p-5">
-                    <h4 class="white fw-800 fs-l3 mb-5">Negro Pricing</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">This bot is free to use. You can also buy premium to get special features and roles on our Discord server. We are currently reviewing the pricing for this product to provide a better offer. </div>
-                </div>
-            </div>
-            <div class="w-100pc md-w-25pc">
-                <div class="m-3 p-5 br-8 bg-indigo-lightest-10 overflow-hidden">
-                    <div class="p-3">
-                        <h3 class="indigo">Free</h3>
-                        <div class="white flex items-center">$<span class="fs-l5 lh-1">0</span>/mo</div>
-                    </div>
-                    <div class="p-3 indigo-lightest fw-400 fs-s1 lh-5">
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">30 Limit per day</span>
-                        </div>
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">240 Features</span></div>
-                        <div>
-                            <i class="h-3" stroke-width="4" data-feather="x"></i>
-                             <span class="opacity-50">Ai Image Feature</span></div>
-                        <div>
-                            <i class="h-3" stroke-width="4" data-feather="x"></i>
-                            <span class="opacity-50">Invite Bot to Group</span></div>
-                        <div>
-                            <i class="h-3" stroke-width="4" data-feather="x"></i>
-                            <span class="opacity-50">1 Downloader Command</span></div>
-                    </div>
-                    <div class="p-3">
-                        <a href="https://wa.me/6285174427437"><button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">Chat our Bot</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="w-100pc md-w-25pc">
-                <div class="m-3 p-5 br-8 bg-white overflow-hidden">
-                    <div class="p-3">
-                        <h3 class="indigo">Premium</h3>
-                        <div class="black flex items-center">$<span class="fs-l5 lh-1">?</span>/mo</div>
-                    </div>
-                    <div class="p-3 black fw-400 fs-s1 lh-5">
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">Unlimited Limit</span></div>
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">254 Features</span></div>
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">Ai Image Feature</span></div>
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">Invite Bot to Group</span></div>
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50">1 Downloader Command</span></div>
-                    </div>
-                    <div class="p-3">
-                        <a href="https://wa.me/6285174427437"><button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">Chat our Bot</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Test-->
-    <section id="staff" class="p-0 md-p-5">
-        <div class="flex flex-wrap">
-            <div class="nft">
-                <div class='main'>
-                  <img class='tokenImage' src="assets/images/tawoka.jpeg" alt="Taoka" />
-                  <h2>Taoka</h2>
-                  <p class='description'>Kono Sekai Wa Yabai Desu</p>
-                  <hr />
-                  <a href="https://wa.me/6285758326908"><button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">Chat Taoka</button></a>
-                </div>
-            </div>
-
-            <div class="nft">
-                <div class='main'>
-                  <img class='tokenImage' src="assets/images/maryo.jpeg" alt="Maryo" />
-                  <h2>Nasbung</h2>
-                  <p class='description'>Hidup Kadang - Kiding</p>
-                  <hr />
-                  <a href="https://wa.me/6285878473287"><button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">Chat Nasbung</button></a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- update -->
-    <section id="updates" class="p-0 md-p-5">
-        <div class="flex flex-wrap">
-            <div class="w-100pc md-w-33pc p-10">
-                <a href="https://api.whatsapp.com/send?phone=6285174427437&text=.textpro" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
-                    <p class="fw-600 white fs-m3 mt-3">
-                        Menambahkan effect pada fitur <span class="opacity-30">textpro</span>
-                    </p>
-                    <div class="indigo fs-s3 italic after-arrow-right my-4">23 April 2023</div>
-                </a>
-            </div>
-            <div class="w-100pc md-w-33pc p-10">
-                <a href="https://api.whatsapp.com/send?phone=6285174427437&text=.aiimage" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
-                    <p class="fw-600 white fs-m3 mt-3">
-                        Menambahkan fitur <span class="opacity-30">aiimage</span>
-                    </p>
-                    <div class="indigo fs-s3 italic after-arrow-right my-4">23 April 2023</div>
-                </a>
-            </div>
-            <div class="w-100pc md-w-33pc p-10">
-                <a href="https://api.whatsapp.com/send?phone=6285174427437&text=.removebg" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
-                    <p class="fw-600 white fs-m3 mt-3">
-                        Menambahkan fitur <span class="opacity-30">removebg</span>
-                    </p>
-                    <div class="indigo fs-s3 italic after-arrow-right my-4">15 April 2023</div>
-                </a>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- footer -->
-    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
-        <div class="flex flex-wrap">
-            <div class="md-w-25pc mb-10">
-                <img src="assets/images/logo.png" class="w-l5" alt="">
-                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
-                    <p>Soluta voluptate et optio. Eos quasi impedit sapiente aliquid eius eligendi at. Necessitatibus
-                        magni et sed quod quas minima.</p>
-                </div>
-            </div>
-            <div class="w-100pc md-w-50pc">
-                <div class="flex justify-around">
-                    <div class="w-33pc md-px-10 mb-10">
-                        <h5 class="white">Creator</h5>
-                        <ul class="list-none mt-5 fs-s2">
-                            <li class="my-3"><a href="https://youga.my.id" class="white opacity-70 no-underline hover-underline">Youga</a></li>
-                            <li class="my-3"><a href="https://negro.my.id" class="white opacity-70 no-underline hover-underline">Ｎｅｇｒｏ乙も</a></li>
-                            <li class="my-3"><a href="https://pantatcina.biz.id" class="white opacity-70 no-underline hover-underline">PantatCina</a></li>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="w-33pc md-px-10 mb-10">
-                        <h5 class="white">Support</h5>
-                        <ul class="list-none mt-5 fs-s2">
-                            <li class="my-3"><a href="#staff" class="white opacity-70 no-underline hover-underline">Staff</a></li>
-                            <li class="my-3"><a href="https://discord.gg/negrozx" class="white opacity-70 no-underline hover-underline">Discord</a></li>
-                            <li class="my-3"><a href="https://chat.whatsapp.com/EzdyPyDzvTy0B7BLkSxJEA" class="white opacity-70 no-underline hover-underline">Whatsapp</a></li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="w-100pc md-w-25pc">
-                <div class="flex justify-around my-8">
-                    <a href="https://youga.my.id" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400"><i
-                            data-feather="link" class="absolute-center h-4"></i></a>
-                    <a href="https://pantatcina.biz.id" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400"><i
-                            data-feather="link-2" class="absolute-center h-4"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </nav>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="assets/js/script.js"></script>
-</body>
+</section>
 
+<!--hero header-->
+<section class="py-7 py-md-0 bg-hero" id="home">
+    <div class="container">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize">Monitoring WA Bot</h1>
+                <p class="lead py-3">Free 24/7 Whatsapp Bot Monitoring</p>
+                <a href="http://wa.me/6285174159094"><button class="btn btn-primary d-inline-flex flex-row align-items-center">
+                    Chat our bot
+                    <em class="ml-2" data-feather="arrow-right"></em>
+                </button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- features section -->
+<section class="pt-6 pb-7" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="heading-black">Features</h2>
+                <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi
+                    commodo, tempus odio a, vestibulum nibh.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row feature-boxes">
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-primary">
+                            <div class="icon-box-inner">
+                                <span data-feather="command" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Features</h5>
+                        <p class="text-muted">Memiliki 250+ fitur yang cocok untuk hiburan maupun mengatur komunitas mu.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-success">
+                            <div class="icon-box-inner">
+                                <span data-feather="clock" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Realtime</h5>
+                        <p class="text-muted">Bot dapat berinteraksi dengan pengguna secara realtime, Online 24 Jam.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-danger">
+                            <div class="icon-box-inner">
+                                <span data-feather="dollar-sign" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Reselleable</h5>
+                        <p class="text-muted">Kamu dapat menjual kembali bot ini dengan cara menyewakannya ke grup.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-info">
+                            <div class="icon-box-inner">
+                                <span data-feather="calendar" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Up To Date</h5>
+                        <p class="text-muted">Bot akan di kembangkan rutin oleh developer sehingga fiturnya akan selalu up to date.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--pricing section-->
+<section class="py-7 bg-dark section-angle top-right bottom-right" id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="text-white heading-black">Negro Pricing</h2>
+                <p class="text-light lead">This bot is free to use. You can also buy premium to get special features and roles on our Discord server.</p>
+            </div>
+        </div>
+        <!--pricing tables-->
+        <div class="row pt-5 pricing-table">
+            <div class="col-12 mx-auto">
+                <div class="card-deck pricing-table">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title pt-3">Free</h3>
+                            <h2 class="card-title text-primary mb-0 pt-4">$0</h2>
+                            <div class="text-muted font-weight-medium mt-2">permanent</div>
+                            <ul class="list-unstyled pricing-list">
+                                <li>30 Limit per day</li>
+                                <li>240 Features</li>
+                                <li>Invite to 1 Group Chat</li>
+                                <li>OpenAI Feature</li>
+                            </ul>
+                            <a href="https://wa.me/6285174427437" class="btn btn-primary">
+                                Start free
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title pt-3">Premium</h3>
+                            <h2 class="card-title text-primary mb-0 pt-4">$69</h2>
+                            <div class="text-muted font-weight-medium mt-2">permanent</div>
+                            <ul class="list-unstyled pricing-list">
+                                <li>Unlimited Limit</li>
+                                <li>254+ Features</li>
+                                <li>Invite to Unlimited Group Chat</li>
+                                <li>AI Image Feature</li>
+                            </ul>
+                            <a href="https://wa.me/6285174427437" class="btn btn-primary">
+                                Start premium
+                            </a>
+                       <!--     <a href="https://trakteer.id/KancutNegroZX" class="btn btn-primary">
+                                Buy premium
+                            </a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--faq section-->
+<section class="py-7" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>Negro FAQ</h2>
+                <p class="text-muted lead">Answers to most common questions.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h6>Is it free?</h6>
+                        <p class="text-muted">Of course, you can use it for free.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>How can I contact you?</h6>
+                        <p class="text-muted">You can contact us on discord or whatsapp directly to our staff or owner.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Where can I support you?</h6>
+                        <p class="text-muted">You can support us on the <a href="https://trakteer.id/KancutNegroZX">trakteer</a>.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Who do I request unblocking from bots with?</h6>
+                        <p class="text-muted">You can ask staff to unblock bots, <a href="https://api.whatsapp.com/send?number=6285174427437&text=.staff">see staff</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--update section-->
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="update">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="heading-black">Updates</h2>
+                <p class="text-muted lead">What's new at Negro.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>tebakkata</h5>
+                        <p class="text-muted small-xl mb-2">May 13, 2023</p>
+                        <p class="card-text">Game tebak kata, untuk menampilkan bantuan bisa mengirimkan #hint. <a href="https://api.whatsapp.com/send?number=6285174427437&text=.tebakkata">Test feature</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>levelling</h5>
+                        <p class="text-muted small-xl mb-2">May 13, 2023</p>
+                        <p class="card-text">Berfungsi untuk menampilkan notifikasi saat levelup. <a href="https://api.whatsapp.com/send?number=6285174427437&text=.levelling">Test feature</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>ww restart</h5>
+                        <p class="text-muted small-xl mb-2">May 13, 2023</p>
+                        <p class="card-text">Berfungsi untuk merestart game werewolf. <a href="https://api.whatsapp.com/send?number=6285174427437&text=.ww%20restart">Test feature</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!--       <div class="row mt-6">
+            <div class="col-md-6 mx-auto text-center">
+                <a href="#" class="btn btn-primary">View all posts</a>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+<!--footer-->
+<footer class="py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 mr-auto">
+                <h5>About Negro</h5>
+                <p class="text-muted">Hadeh.</p>
+            </div>
+            <div class="col-sm-2">
+                <h5>Developer</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://youga.my.id">Youga</a></li>
+                    <li><a href="https://pantatcina.biz.id">PantatCina</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Support</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://discord.gg/negrozx">Discord</a></li>
+                    <li><a href="https://chat.whatsapp.com/EzdyPyDzvTy0B7BLkSxJEA">Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Staff</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://wa.me/6285758326908">Taoka</a></li>
+                    <li><a href="https://wa.me/6285878473287">Maryo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+                &copy; 2023 Negro - All Rights Reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<!-- theme switcher (FOR DEMO ONLY - REMOVE FROM PRODUCTION)-->
+<div class="switcher-wrap">
+    <div class="switcher-trigger">
+        <span class="fa fa-gear"></span>
+    </div>
+    <div class="color-switcher">
+        <h6>Color Switcher</h6>
+        <ul class="mt-3 clearfix">
+            <li class="bg-teal active" data-color="default" title="Default Teal"></li>
+            <li class="bg-purple" data-color="purple" title="Purple"></li>
+            <li class="bg-blue" data-color="blue" title="Blue"></li>
+            <li class="bg-red" data-color="red" title="Red"></li>
+            <li class="bg-green" data-color="green" title="Green"></li>
+            <li class="bg-indigo" data-color="indigo" title="Indigo"></li>
+            <li class="bg-orange" data-color="orange" title="Orange"></li>
+            <li class="bg-cyan" data-color="cyan" title="Cyan"></li>
+            <li class="bg-yellow" data-color="yellow" title="Yellow"></li>
+            <li class="bg-pink" data-color="pink" title="Pink"></li>
+        </ul>
+    </div>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
