@@ -14,9 +14,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/default.css" id="theme-color">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -41,7 +47,7 @@
                         <a class="nav-link page-scroll" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#faq">FAQ</a>
+                        <a class="nav-link page-scroll" href="#staff">Staff</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#update">Update</a>
@@ -182,39 +188,26 @@
     </div>
 </section>
 
-<!--faq section-->
-<section class="py-7" id="faq">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 mx-auto text-center">
-                <h2>Negro FAQ</h2>
-                <p class="text-muted lead">Answers to most common questions.</p>
+<!--staff section-->
+<section id="staff" class="bg-black muli p-0 md-p-5">
+    <div class="flex flex-wrap">
+        <div class="nft">
+            <div class='main'>
+              <img class='tokenImage' src="assets/images/tawoka.jpeg" alt="Taoka" />
+              <h2>Taoka</h2>
+              <p class='description'>Kono Sekai Wa Yabai Desu</p>
+              <hr />
+              <a href="https://wa.me/6285758326908"><button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">Chat Taoka</button></a>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-10 mx-auto">
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <h6>Is it free?</h6>
-                        <p class="text-muted">Of course, you can use it for free.</p>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h6>How can I contact you?</h6>
-                        <p class="text-muted">You can contact us on discord or whatsapp directly to our staff or owner.</p>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h6>Where can I support you?</h6>
-                        <p class="text-muted">You can support us on the <a href="/trakteer">trakteer</a>.</p>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h6>Who do I request unblocking from bots with?</h6>
-                        <p class="text-muted">You can ask staff to unblock bots, <a href="https://api.whatsapp.com/send?phone=6285174427437&text=.staff">see staff</a>.</p>
-                    </div>
-                  <div class="col-md-6 mb-5">
-                        <h6>How to get premium for free?</h6>
-                        <p class="text-muted">You can join the giveaway on <a href="/giveaway">Discord</a> or you can buy it on <a href="/trakteer">Trakteer</a>.</p>
-                    </div>
-                </div>
+
+        <div class="nft">
+            <div class='main'>
+              <img class='tokenImage' src="assets/images/maryo.jpeg" alt="Maryo" />
+              <h2>Nasbung</h2>
+              <p class='description'>Hidup Kadang - Kiding</p>
+              <hr />
+              <a href="https://wa.me/6285878473287"><button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">Chat Nasbung</button></a>
             </div>
         </div>
     </div>
@@ -233,27 +226,27 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5>halloween</h5>
-                        <p class="text-muted small-xl mb-2">May 30, 2023</p>
-                        <p class="card-text">Memperbaiki fitur halloween pada text pro. <a href="https://api.whatsapp.com/send?phone=7285174427437&text=.halloween">Test feature</a></p>
+                        <h5>addblacklist</h5>
+                        <p class="text-muted small-xl mb-2">June 16, 2023</p>
+                        <p class="card-text">Berfungsi untuk menambah nomor yang dituju ke dalam database blacklist. <a href="https://api.whatsapp.com/send?text=.addblacklist">Test feature</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5>otakudesu</h5>
-                        <p class="text-muted small-xl mb-2">May 30, 2023</p>
-                        <p class="card-text">Memperbaiki otakudesu error. <a href="https://api.whatsapp.com/send?phone=6285174427437&text=.otakudesu">Test feature</a></p>
+                        <h5>blacklist</h5>
+                        <p class="text-muted small-xl mb-2">June 16, 2023</p>
+                        <p class="card-text">Berfungsi untuk menambahkan nomor yang diinput ke dalam database blacklist. Apabila nomor tersebut masih berada di dalam grup, maka otomatis akan dikick oleh bot. <a href="https://api.whatsapp.com/send?text=.blacklist">Test feature</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5>proflie</h5>
-                        <p class="text-muted small-xl mb-2">May 30, 2023</p>
-                        <p class="card-text">Memperbaiki status dan limit. <a href="https://api.whatsapp.com/send?phone=6285174427437text=.profile">Test feature</a></p>
+                        <h5>delblacklist</h5>
+                        <p class="text-muted small-xl mb-2">June 16, 2023</p>
+                        <p class="card-text">Berfungsi untuk menghapus nomor yang dituju dari database blacklist. <a href="https://api.whatsapp.com/send?text=.delblacklist">Test feature</a></p>
                     </div>
                 </div>
             </div>
