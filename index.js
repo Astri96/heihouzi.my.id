@@ -9,6 +9,9 @@ app.use(express.static(__dirname + "/public/tugasppl"), (_, res, next) => {
   res.sendFile(__dirname + "./public/tugasppl/index.html")
 });
 
+app.use(express.static(__dirname + "/public/profile"), (_, res, next) => {
+  res.sendFile(__dirname + "./public/profile/index.html")
+});
 app.use(express.static(__dirname + "/public/changelog"), (_, res, next) => {
   res.sendFile(__dirname + "./public/changelog/index.html")
 });
